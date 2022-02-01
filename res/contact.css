@@ -1,0 +1,97 @@
+.an{
+background:white;
+height:15vh;
+width:15vh;;
+display: inline-block;
+border-radius: 50%;
+background:transparent;
+opacity:0.4;
+}
+.i1{ grid-area:git}
+.i2{ grid-area:lin}
+.i3{ grid-area:gmail}
+.i4{ grid-area:discord}
+.grid {
+	
+	position:absolute;
+	margin-left:30%;
+	margin-top:30%;
+	display: grid;
+	grid-gap:55px;
+	grid-template-areas:'git lin gmail discord';
+}
+
+.an{
+	filter: grayscale(80%);
+}
+
+.an:hover{
+animation: shake 1s infinite;
+opacity: 1;
+filter: grayscale(0%);
+cursor:zoom-in;
+}
+
+@keyframes shake {
+  0% { transform: translate(1px, 1px) rotate(0deg); }
+  10% { transform: translate(-1px, -2px) rotate(-1deg); }
+  20% { transform: translate(-3px, 0px) rotate(1deg); }
+  30% { transform: translate(3px, 2px) rotate(0deg); }
+  40% { transform: translate(1px, -1px) rotate(1deg); }
+  50% { transform: translate(-1px, 2px) rotate(-1deg); }
+  60% { transform: translate(-3px, 1px) rotate(0deg); }
+  70% { transform: translate(3px, 1px) rotate(-1deg); }
+  80% { transform: translate(-1px, -1px) rotate(1deg); }
+  90% { transform: translate(1px, 2px) rotate(0deg); }
+  100% { transform: translate(1px, -2px) rotate(-1deg); }
+}
+
+.git{
+	position:absolute;
+	color:white;
+	font-family:  "Papyrus", Fantasy;
+	font-size:88px;
+	margin-left:25%;
+	margin-top:8%;
+    opacity:0.1;
+	text-decoration: line-through;
+}
+
+.git1{
+	display: inline-block;
+	user-select: none;
+font-weight: 900;
+transition: transform 0.8s;
+}
+
+/*
+.git1:hover{
+color:rgb(1,1,1);
+background-color:red;
+font-weight: 1;
+margin-right: 2px;
+transform: rotate3d(1, 0, 0, 180deg);
+}
+
+.git1:active{
+	color:blue;
+transform: rotate3d(0, 0, 0, 65deg);
+}
+
+*/
+
+.scontact:hover .git{
+	opacity:1;
+	text-decoration: none;
+}
+
+.toolclipboard{
+	position:absolute;
+	color:white;
+	left: 52%;
+	top:382%;
+	font-size:40px;
+	opacity:0;
+	user-select: none;
+	pointer-events: none;
+}

@@ -1,0 +1,50 @@
+/*body{
+	background: #181818;
+	display: flex;
+	flex-direction: column;
+	height: 100vh;
+	overflow : hidden;
+}*/
+
+.herocontent{
+	font-family: monospace;
+	/*margin: auto;*/
+	color: white;
+	padding: 10%;
+	z-index:1;
+}
+
+.herotitle{
+	top: -250px;
+	text-align: center;
+	text-transform: uppercase;
+	font-size : 3.2em;
+	border-bottom : solid 1px white;
+}
+
+.herotext{
+	text-align: center;
+	font-size : 1.25em;
+}
+
+canvas{
+position:absolute;
+left:0;
+top:0;
+opacity:30%;
+width:100%;
+
+}
+
+.hidemsg
+{position:absolute;
+top:30%;
+text-align: center;
+margin-left:30%;
+color:#181818;
+font-size:20px;
+user-select: none;
+pointer-events: none;
+font-weight: bold;
+
+}
