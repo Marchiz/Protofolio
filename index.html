@@ -1,0 +1,264 @@
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="res/main.css">
+<link rel="stylesheet" href="res/hero.css">
+<link rel="stylesheet" href="res/projects.css">
+<link rel="stylesheet" href="res/bio.css">
+<link rel="stylesheet" href="res/contact.css">
+
+</head>
+<body style="overflow: visible">
+<img src="image/mp.png" id="mp" onclick="playMp3()" ></img>
+<div id="menu"></div>
+<section onmouseover="mcn(' ')"> <!--------------------------Hero----------------------------->
+
+<audio id="mp3" loop><source src="sounds/music.mp3" type="audio/mp3"></audio>
+<canvas id='canvas'></canvas>
+<div class="herocontent herotitle">Coding is art</div>
+<div class="herocontent herotext">Hi, I'm Marchi and today I'll be your host. This it's my portofolio, let's dive right into it (scroll down)</div>
+<div class="hidemsg">All great changes are preceded by chaos
+</br>You may lost your way, chasing your dreams 
+</br>But beatiful paths can't be discovered without getting lost
+</br>In order to get somewhere, you need to have a vision
+</br>That will guide where you want
+</br>.
+</br>"Knowing the path" will show you how to get from point A to B, 
+</br>but imagination will get you anywhere</div>
+</section>
+
+
+<section onmouseover="mcn('About me')"> <!--------------------------Bio----------------------------->
+<div class="container center centerv">
+        <div href="#myModal1" class="card">
+            <div class="face face1">
+                <div class="center">
+                    <img class="invert center" src="image/man.jpg">
+                    <h3 class="center">Overview</h3>
+                </div>
+            </div>
+            <div class="face face2">
+                <div class="content">
+                    <p>A short resume about me.</p>
+					 <a href="#myModal1" class="mb">Open</a>
+                </div>
+            </div>
+        </div>
+		
+        <div class="card">
+            <div class="face face1">
+                <div>
+                    <img class="invert center" src="image/skills.png">
+                    <h3>Skills</h3>
+                </div>
+            </div>
+            <div class="face face2">
+                <div class="content">
+                    <p>Few words</br>Many thoughts </p>
+                        <a href="#myModal2" class="mb">Read More</a>
+                </div>
+            </div>
+        </div>
+		
+        <div class="card">
+            <div class="face face1">
+                <div>
+                    <img src="image/code.png">
+                    <h3>Experience</h3>
+                </div>
+            </div>
+            <div class="face face2">
+                <div class="content">
+                    <p>Where and how much I level up.</p>
+                        <a href="#myModal3" class="mb">Analyze</a>
+                </div>
+            </div>
+        </div>
+		
+		
+		<div class="card" hidden>
+            <div class="face face1">
+                <div>
+                    <img class="center invert" src="image/cert.jpg">
+                    <h3>Certificate</h3>
+                </div>
+            </div>
+            <div class="face face2">
+                <div class="content">
+                    <p>Some useless paper if you ask me.</p>
+                        <a href="#myModal4" class="mb">Read More</a>
+                </div>
+            </div>
+        </div>
+    </div>
+	
+
+<!--  Overview  -->
+<div id="myModal1" class="modal"> 
+  <div class="modal-content aboutme" style="background-color:black;color:white;">
+	<div style="margin-left:5%;margin-right:5%;">
+				<span class="close" style="margin-left:92%;">&times;</span>
+				<p style="font-size:34px;color:purple;">Me in a nutshel</p>
+				<p class="mbti">__Ne (External Intuition)__</p> 
+				<p>From my perspective, once you understand how a system works, you will be able to solve any problem inside it.</p>
+				<p>>But how you can understand how a system works?</p>
+				<p>Brainstorming; analyzing every variable that are involved into system, from any angle and how them are connected, then drawing a conclusion comes in handy.</p>
+				<p></br>&nbsp;&nbsp;Very curious and excited to figure out "how the Universe works". Rarely pass up a good opportunity to understand something new, especially abstract concepts.</p>
+				<p class="mbti">__Ti (Internal Thinking)__</p>
+				<p>&nbsp;&nbsp;Challenging by nature when shows up a problem that everybody are struggling with. I'd rather put more effort into catching the big fish than small ones.</p>
+				<p class="mbti">__Fe (External Feelings)__</p>
+				<p>&nbsp;&nbsp;In order to improve youself, I think, it's fine to make mistakes and most important part is to admit when you are doing something wrong. Based on that idea, I can handle very well highly stress factors and constructive criticism without getting offended.</p>
+				<p>I always try to avoid conflicts if there is nothing to fight for. </p>
+				<p class="mbti">__Si (Internal Sensing)__</p>
+				<p>&nbsp;&nbsp;Down sides: Not very good with organization and I lack the ability to memorize a lot of theoretical notions, so I prefer practice instead. Sometimes you have to put a little much effort than others on things you are struggling with and most important part is to know your weakness.</p>
+				<p class="mbti">Cognitive functions (Easter egg nr 2)</p>
+			  <h6> <a style="font-size:14px;color:yellow" href="https://www.youtube.com/watch?v=lTOlC5dInuo" target="_blank"></br>Personality type (video)</a></h6>
+			  <p style="color:black">.</p>
+		</div>
+  </div>
+</div>
+
+<!--  Skills  -->
+<div id="myModal2" class="modal" > 
+  <div class="modal-content skills" style="background-color:black;color:white;">
+	<div style="margin-left:30%;font-size:34px;">
+	<span class="close" style="margin-left:95%;">&times;</span>
+	<p >&nbsp;</p>
+	<p style="color:purple">• Creativity</p>
+	<p style="color:green">&nbsp;• Brainstorming</p>
+	<p style="color:blue">&nbsp;&nbsp;• Problem solving</p>
+	<p style="color:yellow">&nbsp;&nbsp;&nbsp;• Critical thinking</p>
+	<p style="color:darkred">&nbsp;&nbsp;&nbsp;&nbsp;• Analytical reasoning</p>
+	<p style="color:lightgreen">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;• Emotional intelligence</p>
+	<p style="color:red">&nbsp;&nbsp;&nbsp;&nbsp;• Scientific computing</p>
+	<p style="color:orange">&nbsp;&nbsp;&nbsp;• Quick thinker</p>
+	<p style="color:aqua">&nbsp;&nbsp;• Adaptability</p>
+	<p style="color:lime">&nbsp;• Entertainer</p>
+	<p style="color:indigo">• Persuasion</p>
+	<p>&nbsp;</p>
+	</div>
+    </div>
+</div>
+<!--  Experience  -->
+<div id="myModal3" class="modal"> 
+  <div class="modal-content" style="background-color:black;color:white;">
+	<span class="close" style="margin-left:97%;">&times;</span>
+	<div>
+	<div style="display:inline-block;margin-left:30px;">
+	<p style="font-size:26px;color:purple;">Education</p>
+	<p style="font-size:20px;color:green">&nbsp;&nbsp;• Colegiul National Radu Greceanu</p>
+	<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;C++</p>
+	<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;MySQL</p>
+	<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Microsoft Excel</p>
+	
+	
+	<p style="font-size:20px;color:green"></br>&nbsp;&nbsp;• Universitatea Politehnica Bucuresti</p>
+	<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Data Structures and Algorithms (C++)</p>
+	<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;OOP (Java)</p> 
+	<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Pseudocode</p>
+	<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Inventor</p>
+	<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
+	<p style="color:black">.</p>
+	</div>
+	
+	<div style="display:inline-block;margin-left:40px;">
+	<p style="font-size:26px;color:purple;">Learned by myself</p>
+	<p>&nbsp;&nbsp;C# </p>
+	<p>&nbsp;&nbsp;Visual Basic</p>
+	<p>&nbsp;&nbsp;Unity</p>
+	<p>&nbsp;&nbsp;Web development (HTML, CSS, JS)</p>
+	<p>&nbsp;&nbsp;AdobeXD</p>
+	<p>&nbsp;&nbsp;Logic Gates</p>
+	</br></br></br></br></br></br></br>
+	</div>
+	
+	<div style="display:inline-block;margin-left:40px;">
+	<p style="font-size:26px;color:purple;">Another experiences</p>
+
+	<p>&nbsp;&nbsp;• Moderator on Half Life, valve server (C++)</p>
+	<p>&nbsp;&nbsp;&nbsp;&nbsp;- Finding and fixing bugs</p>
+	<p>&nbsp;&nbsp;&nbsp;&nbsp;- Create mods</p>
+	<p>&nbsp;&nbsp;&nbsp;&nbsp;- Implements boots and code their AI</p>
+	</br>
+	<p>&nbsp;&nbsp;• Experienced with emulatos on following operating system:</br>&nbsp;&nbsp;&nbsp;&nbsp;iOS, android, windows and linux</p>
+	</br>
+	<p>&nbsp;&nbsp;• I've coaching people in:</br>&nbsp;&nbsp;&nbsp;&nbsp; mathematics, programming and psychology </p>
+	</br></br></br>
+	</div>
+	
+	</div>
+  </div>
+</div>
+
+<!--  Certificate  -->
+<div id="myModal4" class="modal"> 
+  <div class="modal-content">
+
+  </div>
+</div>
+
+
+
+
+
+</section>
+
+
+
+<section class="sec2" onmouseover="mcn('Projects')"> <!--------------------------Projects----------------------------->
+<audio id="myBeep"><source src="sounds/beep-26.mp3" type="audio/mp3"></audio>
+<audio id="butsound"><source src="button-34.mp3" type="audio/mpeg"></audio>
+<div>
+<figure class="center" id="video_player" title>
+	<video controls poster="image/start.jpg">
+		<source src="videos/convert.mp4" type="video/mp4">
+	</video>
+	
+	<figcaption>
+		<a onmouseover="playBeep()" href="videos/convert.mp4"><img  src="image/convert.jpg" alt="Nambia Timelapse 1"></a>
+		<a onmouseover="playBeep()" href="videos/browser.mp4"><img src="image/web.jpg" alt="Nambia Timelapse 2"></a>
+		<a onmouseover="playBeep()" href="videos/WPF3D.mp4"><img src="image/3d.jpg" alt="Nambia Timelapse 4"></a>
+		<a onmouseover="playBeep()" href="videos/game.mp4"><img src="image/game.jpg" alt="Nambia Timelapse 3"></a>
+		<a onmouseover="playBeep()" href="videos/live.mp4"><img src="image/html.jpg" alt="Nambia Timelapse 4"></a>
+		<a ondblclick="openInNewTab('https://www.google.com');" onmouseover="playBeep()" href="videos/wm.mp4"><img src="image/wm.jpg" alt="Nambia Timelapse 4"></a>
+
+	</figcaption>
+</figure>
+</div>
+</section>
+
+<!-----------------------------------------------Contact----------------------------------------------->
+<!----------------------------------------------------------------------------------------------------->
+<section onmouseover="mcn('Contact')" class="scontact">
+<div class="git">
+<div class="git1 gitgit">G</div>
+<div class="git1">e</div>
+<div class="git1 gitfun githi">t</div>
+<div class="git1" style="pointer-events: none;">&nbsp;</div>
+<div class="git1 gitgit gitin">i</div>
+<div class="git1 gitfun gitin githi">n</div>
+<div class="git1" style="pointer-events: none;">&nbsp;</div>
+<div class="git1 gitgit gitmail">t</div>
+<div class="git1 gitmail">o</div>
+<div class="git1 gitfun gitmail githi">u</div>
+<div class="git1 gitmail">c</div>
+<div class="git1 gitmail">h</div>
+</div>
+<div class="toolclipboard">Copy to clipboard</div>
+<div class="grid">
+<img onmouseover="gity1()" onmouseleave="gity0()" class="an i1" src="image/github.png" onclick="openInNewTab('https://github.com/Marchiz');"></img>
+<img onmouseover="iny1()" onmouseleave="iny0()" class="an i2" src="image/linkedin.png" onclick="openInNewTab('https://www.linkedin.com/in/marchidon-iulian-25980017a/');" ></img>
+<img onmouseover="mail1();tcb1()" onmouseleave="mail0();tcb0()" onclick='clipmail()' class="an i3" src="image/gmail.png" ></img>
+<img onmouseover="disc1();tcb1()" onmouseleave="disc0();tcb0()" onclick='clipdisc()' class="an i4" src="image/discord.jpg"></img>
+</div>
+</section>
+
+
+
+ <script src="res/main.js"></script> 
+ <script src="res/hero.js"></script>
+ <script src="res/projects.js"></script> 
+ <script src="res/bio.js"></script>
+ <script src="res/contact.js"></script>
+</body>
+</html>
